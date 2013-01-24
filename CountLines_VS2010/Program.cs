@@ -18,7 +18,7 @@ namespace CountLines_VS2010
 
         static void Main(string[] args)
         {
-            string input = File.ReadAllText(@"D:\Projects\CodingDOJO\CountLines_VS2010\TestFiles\TextFile2.txt");
+            string input = File.ReadAllText(@"D:\Projects\CodingDOJO\CountLines_VS2010\TestFiles\TextFile1.txt");
 
             StringBuilder output = new StringBuilder();
             while (input.Length > 0)
